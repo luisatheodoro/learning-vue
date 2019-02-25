@@ -8,7 +8,7 @@
 <div id="app">
     <div class="product">
         <div class="product-image">
-            <img src="">
+            <img :src="image" :alt="product-pic"/>  <!--v-bind this is bound to the source of the data-->
         </div>
         <div class="product-info">
             <h1>{{ product }}</h1>  <!--{{ property }} using double curly braces (expression)-->

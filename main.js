@@ -3,6 +3,6 @@ var app = new Vue({  //creates a new vue instance
   el: '#app', //here we are making reference to the app id, we are linking this instance to html div
   data: {  //The instance can also have a property for data
     product: "Socks",
-    description: "A pair of warm, fuzzy socks"
+    image: './assets/vmSocks-green.png'
   }
 });
