@@ -4,6 +4,7 @@ var app = new Vue({  //creates a new vue instance
   data: {  //The instance can also have a property for data
     product: "Socks",
     image: './assets/vmSocks-green.png',
-    link: 'http://www.amazon.com'
+    link: 'http://www.amazon.com',
+    inventory: 9
   }
 });
