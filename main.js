@@ -5,6 +5,7 @@ var app = new Vue({  //creates a new vue instance
     product: "Socks",
     image: './assets/vmSocks-green.png',
     link: 'http://www.amazon.com',
-    inventory: 9
+    inventory: 9,
+    onSale: true
   }
 });
