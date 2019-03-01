@@ -5,7 +5,7 @@ var app = new Vue({  //creates a new vue instance
     product: "Socks",
     image: './assets/vmSocks-green.png',
     link: 'http://www.amazon.com',
-    inventory: 9,
+    inStock: false,
     onSale: false,
     details: ["80% cotton", "20% polyester", "Gender-neutral"],
     variants: [
@@ -34,6 +34,6 @@ var app = new Vue({  //creates a new vue instance
     },
     updateProduct: function (variantImage) {
       this.image = variantImage
-    }
+    },
   }
 });
